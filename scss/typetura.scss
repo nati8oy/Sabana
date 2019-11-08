@@ -1,0 +1,321 @@
+/****************************************
+TYPETURA FLUID TYPE SYSTEM
+https://scottkellum.com/
+twitter.com/scottkellum
+
+The MIT License (MIT)
+
+Copyright © 2018–2019 Scott Kellum and Sal Hernandez
+
+Permission is hereby granted, free of charge, to any person obtaining a copy of this software and associated documentation files (the “Software”), to deal in the Software without restriction, including without limitation the rights to use, copy, modify, merge, publish, distribute, sublicense, and/or sell copies of the Software, and to permit persons to whom the Software is furnished to do so, subject to the following conditions:
+
+The above copyright notice and this permission notice shall be included in all copies or substantial portions of the Software.
+
+****************************************/
+
+/*add font smoothing where possible*/
+* {
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+    h1  {
+      --tt-key: h1;
+      font-size: 5.653rem;
+      line-height: 5.653rem;
+    }
+    @keyframes h1 {
+      0%, 20% {
+        font-size: 3.052rem;
+        line-height: 3.052rem;
+      }
+      48% {
+        font-size: 5.653rem;
+        line-height: 5.653rem;
+      }
+      64% {
+        font-size: 7.653rem;
+        line-height: 5.653rem;
+      }
+      100% {
+        font-size: 8rem;
+        line-height: 7.653rem;
+      }
+    }
+    
+
+     h2 {
+      --tt-key: h2;
+      font-size: 3.998rem;
+      line-height: 3.998rem;
+    }
+
+    @keyframes h2 {
+      0%, 20% {
+        font-size: 2.441rem;
+        line-height: 2.441rem;
+      }
+      48% {
+        font-size: 3.998rem;
+        line-height: 3.998rem;
+      }
+      64%,100% {
+        font-size: 3.998rem;
+        line-height: 3.998rem;
+      }
+      
+
+    }
+     h3 {
+      --tt-key: h3;
+      font-size: 1.953rem;
+      line-height: 1.953rem;
+    }
+
+    @keyframes h3 {
+      0%, 20% {
+        font-size: 1.953rem;
+        line-height: 1.953rem;
+      }
+       100% {
+        font-size: 2.441rem;
+        line-height: 2.441rem;
+      }
+    }
+     h4 {
+      --tt-key: h4;
+      font-size: 1.563rem;
+      line-height: 1.563rem;
+    }
+
+    @keyframes h4 {
+      0%, 20% {
+        font-size: 1.953rem;
+        line-height: 1.953rem;
+      }
+      100% {
+        font-size: 2.441rem;
+        line-height: 2.441rem;
+      }
+    }
+     h5 {
+      --tt-key: h5;
+      font-size: 1.25rem;
+      line-height: 1.25rem;
+    }
+
+    @keyframes h5 {
+      0%, 20% {
+        font-size: 1.25rem;
+        line-height: 1.25rem;
+      }
+    }
+     h6 {
+      --tt-key: h6;
+      font-size: 1rem;
+      line-height: 1.2rem;
+    }
+
+    @keyframes h6 {
+      0%, 20% {
+        font-size: 1rem;
+        line-height: 1.2rem;
+      }
+    }
+
+ 
+
+
+    body {
+      --tt-key: body;
+      line-height: 1.7rem;
+      font-size: 1rem;
+    }
+
+    @keyframes body {
+      0%, 20% {
+        line-height: 2rem;
+        font-size: 1.2rem;
+      }
+      48% {
+        line-height: 1.7rem;
+        font-size: 1.2rem;
+      }
+      85% {
+        line-height: 1.7rem;
+        font-size: 1rem;
+      }
+
+
+       100% {
+        line-height: 1.8rem;
+        font-size: 1rem;
+      }
+
+    }
+
+    .lead {
+      --tt-key: lead;
+       font-size: 1.563rem;
+      line-height: 1.9rem;
+    }
+
+    @keyframes lead {
+      0%, 20% {
+        font-size: 1.953rem;
+      line-height: 2.2rem;
+      }
+    }
+
+    @keyframes XXL {
+      0%, 20% {
+          font-size:10rem;
+          line-height: 9rem;
+      }
+       48% {
+          font-size:12rem;
+          line-height: 9rem;
+      }
+         100% {
+        font-size:14rem;
+        line-height: 11rem;
+      }
+    }
+
+    .XXL{
+      --tt-key: XXL;
+      font-size:14rem;
+      line-height: 11rem;
+    }
+
+    @keyframes XL {
+      0%, 20% {
+          font-size: 3.998rem;
+          line-height: 3rem;
+      }
+       48% {
+          font-size:10rem;
+          line-height: 8rem;
+      }
+         100% {
+        font-size:10rem;
+        line-height: 8rem;
+      }
+    }
+
+    .XL{
+      --tt-key: XL;
+      font-size:10rem;
+      line-height: 8rem;
+    }
+
+
+/*Display fonts use major second 8:9 1.125 ratio*/
+
+ .display-1 {
+      --tt-key: display-1;
+       font-size: 5.852rem;
+      line-height: 5.852rem;
+      font-family: Roboto;
+
+    }
+
+    @keyframes display-1 {
+      0%, 20% {
+      font-size: 4.768rem;
+      line-height: 4.768rem;
+      }
+      100%{
+        font-size: 5.852rem;
+      line-height: 5.852rem;
+      }
+    }
+
+  
+    .display-2 {
+      --tt-key: display-2;
+       font-size: 5.202rem;
+      line-height: 5.202rem;
+      font-family: Roboto;
+
+    }
+
+
+     @keyframes display-2 {
+      0%, 20% {
+          font-size: 3.815rem;
+          line-height: 3.815rem;
+      }
+      100%{
+         font-size: 5.202rem;
+      line-height: 5.202rem;
+      }
+    }
+
+      .display-3 {
+      --tt-key: display-3;
+       font-size: 4.624rem;
+      line-height: 4.624rem;
+      font-family: Roboto;
+
+    }
+
+     @keyframes display-3 {
+      0%, 20% {
+           font-size: 3.052rem;
+        line-height: 3.052rem;
+      }
+      100%{
+      font-size: 4.624rem;
+      line-height: 4.624rem;
+      }
+    }
+
+    .display-4 {
+      --tt-key: display-4;
+       font-size: 3.653rem;
+      line-height: 3.653rem;
+      font-family: Roboto;
+
+    }
+
+     @keyframes display-4 {
+      0%, 20% {
+           font-size: 2.441rem;
+        line-height: 2.441rem;
+      }
+      100%{
+       font-size: 3.247rem;
+      line-height: 3.247rem;
+      }
+    }
+
+        blockquote {
+      --tt-key: blockquote;
+       font-size: 3.653rem;
+      line-height: 3.653rem;
+      font-family: Roboto;
+    }
+
+     @keyframes blockquote {
+      0%, 20% {
+        font-size: 2.441rem;
+        line-height: 2.441rem;
+      }
+      100%{
+       font-size: 3.247rem;
+      line-height: 3.247rem;
+      }
+    }
+
+
+ 
+
+
+
+
+
+
+
+
+

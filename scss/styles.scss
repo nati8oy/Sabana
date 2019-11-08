@@ -1,0 +1,59 @@
+@import "../node_modules/bootstrap/scss/bootstrap";
+
+
+
+@import url("https://use.typekit.net/jxo7zgm.css");
+
+body{
+	font-family: ff-real-text-pro,sans-serif;
+	font-weight: 200;
+	font-style: normal;
+}
+
+h1, h2, h3, h4, h5, h6 {
+	font-family: ff-real-headline-pro,sans-serif;
+	font-weight: 500;
+	font-style: normal;
+}
+
+$enable-shadows: true;
+$primary: #ffcc00;
+
+.pt-100 {
+	padding-top: 100px; 
+}
+
+.pb-100 {
+	padding-bottom: 100px; 
+}
+
+.transition-2{
+	opacity: 0;
+}
+
+
+.large-img-1{
+	 background-image: url('../img/jailam-rashad-Qe58SmRMcH4-unsplash.jpg');
+	 height: 600px;
+	 background-size: cover;
+	 background-position: center;
+}
+
+.large-img-2{
+	 background-image: url('../img/scott-webb-_3l5B_4E_u0-unsplash.jpg');
+	 height: 600px;
+	 background-size: cover;
+	 background-position: center;
+}
+
+//Default button
+//
+
+$btn-border-radius-sm: 20px;
+$border-radius: 12px;
+
+$btn-border-radius-lg: 30px;
+
+
+
+@import "typetura.scss";
